@@ -1,0 +1,21 @@
+Principais possíveis problemas que terão que ser resolvidos:
+* Segurança na autênticação
+* Geolocalização (Temos que fazer funcionar por localização)
+* Deve ter sistema de chat
+* Deve ser possível reportar a conversa
+* Criptografia do sistema de entrada no BD
+* PHP ou/e JAVA/Python
+* Dados não podem vazar
+
+2 Tipos de usuário:
+1 - Administrador
+2 - Usuário Comum
+Logo, 2 tipos de conta
+
+Biblioteca pra pegar a geolocalização:
+Ipxapi 
+
+Ipxapi API Key: 6780|ArdjwEWafA5uijW6dEjh8vaG7FBqnLGMX8SQXDRZ
+
+Code Example:
+https://ipxapi.com/ip#php_example
