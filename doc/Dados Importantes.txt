@@ -19,3 +19,12 @@ Ipxapi API Key: 6780|ArdjwEWafA5uijW6dEjh8vaG7FBqnLGMX8SQXDRZ
 
 Code Example:
 https://ipxapi.com/ip#php_example
+
+Features principais:
+* Registro e Login de Usuários e Administradores
+* Capacidade de editar a conta dos mesmos
+* Geolocalização para facilitar o encontro de potenciais matches
+* Mecanismo de arrastar pro lado para poder dar positivo ou negativo para a pessoa
+* Sistema de chat entre os Usuários
+* Capacidade de reportar o usuário e dar a motivação para tal report
+* Capacidade de dar block em outro usuário.
