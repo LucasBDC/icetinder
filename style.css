@@ -5,12 +5,41 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
 }
 
-body{
-    background: url(./images/Shade\ top.png),
-        url(./images/Background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+body {
+  background-image: url(./images/Shade\ top.png),
+  url("./images/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+/* Setando a Logo do Icetinder */
+
+.home-slogan{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 18vh;
+  color: white;
+  font-size: 4em;
+  margin: 0 auto;
+}
+
+.button-start{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  top: 20vh;
+  width: 230px;
+  font-weight: 300;
+  background: linear-gradient(45deg, #377C26 0%, #4BED5C 100%);
+  border-radius: 22px;
+  padding: 10px 40px;
+  color: white;
+}
+
