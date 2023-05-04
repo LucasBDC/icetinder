@@ -9,25 +9,40 @@
     text-decoration: none;
 }
 
-body {
+.tinder-background {
   background-image: url(./images/Shade\ top.png),
+  url("./images/Green\ Shade-ish.png"),
   url("./images/Background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-/* Setando a Logo do Icetinder */
+/* Setando o header */
+.header-landing{
+  display: flex;
+  justify-content: space-between;
+}
 
+.nav-links a{
+  position: relative;
+  color: white;
+  font-size: 1.3em;
+  padding: 0px 10px;
+  top: 3vh;
+}
+
+/* Estilizando conteúdo página principal */
 .home-slogan{
   display: flex;
   justify-content: center;
   position: relative;
-  top: 18vh;
+  top: 22vh;
   color: white;
   font-size: 4em;
   margin: 0 auto;
   letter-spacing: -0.03em;
+  line-height: 144px;
   text-shadow: 2px 5px 12px black;
 }
 
@@ -36,18 +51,33 @@ body {
   justify-content: center;
   position: relative;
   margin: 0 auto;
-  top: 20vh;
+  top: 24vh;
   width: 230px;
   font-weight: 300;
   background: linear-gradient(45deg, #377C26 0%, #4BED5C 100%);
   border-radius: 22px;
   padding: 10px 40px;
   color: white;
+  min-width: 320px;
 }
 
+@media (max-width:470px){
+  .home-slogan{
+    top: 22vh;
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+  .button-start{
+    top: 18vh;
+    width: 200px;
+    padding: 5px 40px;
+  }
+  .nav-links{
+    visibility: hidden;
+  }
+}
 
-
-@media (min-width: 320px) and (max-width: 800px){
+@media (min-width: 470px) and (max-width: 800px){
   .home-slogan{
     top: 26vh;
     font-size: 1.8em;
