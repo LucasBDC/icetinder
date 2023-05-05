@@ -38,12 +38,13 @@ body{
 
 /* Estilizando Inputs */
 
-input{
-  width: 450px;
+.login-input{
+  width: 380px;
   padding: 10px 5px;
   border-bottom-left-radius: 10px;
   border-width: 0px 0px 1px 1px;
   background: transparent;
+  margin-bottom: 20px;
 }
 
 /* Estilizando conteúdo página principal */
@@ -89,6 +90,9 @@ input{
   .nav-links{
     visibility: hidden;
   }
+  .login-input{
+   
+  }
 }
 
 @media (min-width: 470px) and (max-width: 800px){
@@ -120,35 +124,51 @@ input{
   height: 600px;
   background: #D9D9D9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 48px;
-  padding: 0 50px;
+  border-radius: 30px;
+  padding: 0 75px;
+  display: grid;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
 .container img{
   position: relative;
-  width: 165px;
-  padding: 30px 0;
+  width: 130px;
+  padding: 50px 0 0px 0;
   margin: 0 auto;
 }
 
+.container label{
+  font-weight: 300;
+  padding: 0 5px;
+}
+
 .container a{
+  display: flex;
+  justify-content: center;
   color: #0075FF;
   letter-spacing: -0.06em;
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 24px;
 }
-
+.buttons-form{
+  display: grid;
+}
 .container .button-enter{
+  position: relative;
+  margin: 10px auto 0px auto;
   border: transparent;
   border-radius: 38px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: 600;
   font-size: 1.8em;
-  width: 400px;
+  width: 380px;
   background: linear-gradient(45deg, #377C26 0%, #4BED5C 100%);
-  padding: 10px 60px;
+  padding: 10px 0px;
   color: white;
   -webkit-border-radius: 22px;
   -moz-border-radius: 22px;
