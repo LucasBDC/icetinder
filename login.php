@@ -5,10 +5,12 @@
         <div class="container">
             <img src="./images/logo-icon-colored.svg" alt="colored-logo"> <br>
             <form action="" method="POST">
+                <div class="login-inputs">
                 <label for="email">E-mail</label><br>
                 <input type="email" name="email" class="login-input"><br>
                 <label for="senha">Senha</label><br>
                 <input type="password" name="senha" class="login-input"><br>
+                </div>
                 <div class="buttons-form">
                     <button type="submit" class="button-enter">ENTRAR</button><br>
                     <a href="cadastro.php">Ainda não tem uma conta? Crie uma!</a>
