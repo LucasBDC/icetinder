@@ -18,5 +18,4 @@
             </form>
         </div>
     </div>
-</body>
-</html>
+<?php require 'requires/footer.php' ?>
