@@ -5,6 +5,10 @@ body{
   min-width: 320px;
 }
 
+input{
+  font-weight: 300;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -180,13 +184,20 @@ body{
 }
 
 /* Tela Cadastro */
+
 .container-cadastro{
   display: grid;
   background: #D9D9D9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
-  width: 1100px;
+  width: 65%;
   height: 540px;
+  padding: 35px;
+}
+
+.container-cadastro button{
+  position: relative;
+  top: -12vh;
 }
 
 .right-cad{
@@ -203,8 +214,78 @@ body{
   float: left;
 }
 
+.right-cad label{
+  font-size: 1em;
+  font-weight: 300;
+  padding: 0 5px;
+  margin: 1rem 0 0 0;
+}
 
+.sobre-voce{
+  height: 11rem;
+  min-height: 11rem;
+  min-width: 300px;
+  max-height: 11rem;
+  max-width: 300px;
+}
+
+.right-cad input, textarea{
+  font-weight: 300;
+  background-color: transparent;
+  border-width: 0px 0px 1px 1px;
+  padding: 0.5rem;
+  margin: 0 0 1rem 0;
+  border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+}
+
+.left-cad label{
+  font-size: 1em;
+  font-weight: 300;
+  padding: 0 5px;
+  margin: 1rem 0 0 0;
+}
+
+.left-cad input, textarea{
+  background-color: transparent;
+  border-width: 0px 0px 1px 1px;
+  padding: 0.5rem;
+  margin: 0 0 1rem 0;
+  border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+}
+
+.three-grid{
+  display: grid;
+  grid-template: "grid1 grid2 grid3";
+  gap: 1.2rem;
+}
+
+select{
+  background-color: transparent;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+}
+
+.left-cad #age{
+  width: 50px;
+}
+
+.photos{
+  display: grid;
+}
 /* Clear Class */
 .clear{
   clear: both;
 }
+
