@@ -7,8 +7,4 @@
         <header><h2 class="home-slogan">Conheça seu parceiro de campus</h2></header>
         <section> <a href="login.php" class="button-start">Entre em sua conta</a></section>
       </main>
-
-
-  <script src="script.js"></script>
-</body>
-</html>
+<?php require 'requires/footer.php' ?>
