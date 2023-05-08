@@ -6,8 +6,9 @@
             <li><a href="#">Meus Matches</a></li><br><br>
             <li><a href="#">Conversas</a></li><br><br>
             <li><a href="index.php">Editar Perfil</a></li><br><br>
-            <li><a href="index.php">Deletar Perfil</a></li><br><br>
+            <li><a href="index.php">Deletar Perfil<i class="fa-sharp fa-solid fa-person-walking-arrow-right"></i></a></li><br><br>
             <li><a href="index.php">Sair</a></li>
+            fa <i class="far fa-starfighter"></i>
         </ul>
     </aside>
     <main>

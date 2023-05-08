@@ -54,7 +54,7 @@
         <label for="senha">Senha:</label>
         <input type="password" name="senha" id="senha">
         <label for="description">Sobre você</label>
-        <textarea name="description" class="sobre-voce" id="description" cols="30" rows="10"></textarea>
+        <textarea name="description" class="sobre-voce" id="descricao" cols="30" rows="10"></textarea>
       </div>
       <div class="buttons-form clear">
         <button type="submit" class="button-enter" id="cadastrar-button">Cadastrar</button>

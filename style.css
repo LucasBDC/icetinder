@@ -198,6 +198,7 @@ input{
 .container-cadastro button{
   position: relative;
   top: -12vh;
+  width: 259px;
 }
 
 .right-cad{
@@ -277,7 +278,7 @@ select{
   -o-border-radius: 0.6rem;
 }
 
-.left-cad #age{
+.left-cad #idade{
   width: 50px;
 }
 
@@ -317,6 +318,7 @@ select{
 }
 
 .sidebar li a:hover{
+  color: #0075FF;
   font-size: 1.7em;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
