@@ -317,20 +317,14 @@ select{
   -o-transition: .2s ease-in-out;
 }
 
-.sidebar li a:hover{
-  color: #0075FF;
-  font-size: 1.7em;
-  transition: .2s ease-in-out;
-  -webkit-transition: .2s ease-in-out;
-  -moz-transition: .2s ease-in-out;
-  -ms-transition: .2s ease-in-out;
-  -o-transition: .2s ease-in-out;
-}
-
 /* Clear Class */
 .clear{
   clear: both;
+  
 }
+
+
+
 
 .card {
   position: relative;
@@ -464,6 +458,8 @@ font-weight: 300;
 opacity: 0%;
 visibility: hidden;
 }
+
+
 
 @keyframes beat {
 0% {
